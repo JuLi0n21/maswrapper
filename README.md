@@ -6,16 +6,16 @@ Paste one of the following commands into ur PS
 
 ### Supported methods
 - Hwid(Recommended) (Windows)
-`irm https://mas.illegalesachen.download/hwid | iex`
+> `irm https://mas.illegalesachen.download/hwid | iex`
 
 - Ohook (Office)
-`irm https://mas.illegalesachen.download/ohook | iex`
+> `irm https://mas.illegalesachen.download/ohook | iex`
 
 - KMS38 (Windows)
-`irm https://mas.illegalesachen.download/kms38 | iex`
+> `irm https://mas.illegalesachen.download/kms38 | iex`
 
 - KMS (Windows / Office)
-`irm https://mas.illegalesachen.download/kms | iex`
+> `irm https://mas.illegalesachen.download/kms | iex`
 
 ## check out the original creators | learn how it works
 https://github.com/massgravel/Microsoft-Activation-Scripts
