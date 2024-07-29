@@ -10,11 +10,7 @@ var mas = "https://get.activated.win"
 
 func main() {
 
-	http.HandleFunc("/{$}", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "irm %s | iex", mas)
-	})
-
-	http.HandleFunc("/{method}", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/{method...}", func(w http.ResponseWriter, r *http.Request) {
 
 		m := r.PathValue("method")
 		switch m {
